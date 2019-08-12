@@ -1,0 +1,26 @@
+{
+  "name": "Chungsu Stove AR",
+  "short_name": "Chungsu Stove",
+  "icons": [{
+    "src": "images/chstove_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {"src": "images/chstove_152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {"src": "images/chstove_144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {"src": "images/chstove_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }],
+  "start_url": "index.php?homescreen",
+  "display": "standalone",
+  "background_color": "#89bcd9",
+  "theme_color": "#89bcd9",
+  "description": "Chungsu Stove AR"
+}

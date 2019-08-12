@@ -1,0 +1,19 @@
+.chstovear { overflow: hidden; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; display: grid; justify-items: center; }
+.chstovear * { box-sizing: border-box; }
+.chstovear a { color: black; text-decoration: none; }
+.chstovear :active { }
+body { background-color: rgb(0, 0, 0); margin: 0px; overflow: hidden; }
+.chstovear #chstovear_cont { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
+.chstovear .env_video { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
+.chstovear .fscreen_warn { background: rgba(128, 128, 128, 0.7) none repeat scroll 0% 0%; border: 0.3vmax solid black; box-shadow: black 0vmax 0vmax 0.3vmax 0.2vmax; border-radius: 1vmax; font-family: arial; font-size: 2vmax; padding: 1.3vmax; text-align: center; text-shadow: rgb(29, 24, 24) 0.2vmax 0.2vmax 0.4vmax; font-weight: bold; z-index: 0; align-self: center; display: none; color: white; }
+.chstovear .tips { background: rgba(128, 128, 128, 0.7) none repeat scroll 0% 0%; border: 0.3vmax solid black; box-shadow: black 0vmax 0vmax 0.7vmax 0.2vmax; border-radius: 1vmax; font-family: arial; font-size: 2vmax; padding: 1.3vmax; text-shadow: rgb(29, 24, 24) 0.2vmax 0.2vmax 0.4vmax; z-index: 0; align-self: center; text-align: left; display: none; color: white; }
+.chstovear .add2home_btn { text-align: right; color: black; visibility:hidden}
+.chstovear .src { text-align: right; color: black; }
+.chstovear .error_btn { position: fixed; left: 0.2%; top: 0.4%; background: gray none repeat scroll 0% 0%; color: white; padding: 0.3vmax 0.8vmax; border: 0.1vmax solid white; border-radius: 0.4vmax; box-shadow: black 0.1vmax 0.1vmax 0.1vmax; visibility: hidden; font-size: 3vmax; font-weight: bold; }
+.chstovear .error_pnl { position: fixed; background: gray none repeat scroll 0% 0%; border: 0.3vmax solid black; border-radius: 1vmax; box-shadow: black 0.1vmax 0.1vmax 0.2vmax 0.2vmax; display: grid; grid-template-rows: 1fr 0fr; gap: 1vmax; padding: 1vmax; left: 20%; top: 20%; width: 60%; height: 60%; font-family: arial; font-size: 2vmax; visibility: hidden; }
+.chstovear .error_pnl > div { background: white none repeat scroll 0% 0%; border: 2px inset; padding: 0.6vmax; overflow: auto; }
+.chstovear .error_close { background: rgb(92, 90, 90) none repeat scroll 0% 0%; justify-self: center; padding: 0.2vmax 1vmax; border: 1px solid; box-shadow: black 0.1vmax 0.1vmax 0.2vmax 0.2vmax; border-radius: 0.6vmax; color: white; font-family: arial; font-size: 2.4vmax; }
+.chstovear .debug_controls { position: absolute; bottom: 0px; left: 30%; height: 30px; width: 40%; display: grid; grid-template-columns: 0fr 1fr; visibility: hidden; }
+.chstovear .debug_play { background: gray none repeat scroll 0% 0%; border: 1px solid; padding: 5px; color: white; }
+.chstovear .debug_track { border: 1px solid; position: relative; }
+.chstovear .debug_time { position: absolute; left: 0px; top: 0px; width: 20px; height: 100%; background: blue none repeat scroll 0% 0%; cursor: pointer; border: 1px solid white; }

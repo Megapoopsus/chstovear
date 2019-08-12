@@ -1,0 +1,6 @@
+.app_confirm_pnl { box-sizing: border-box; position: fixed; right: 0px; bottom: -10vmin; display: flex; align-items: center; background: white; font-family: arial; width: 100%; box-shadow: black 0px -4px 20px; transition: bottom 1s ease 0s; height: 12vmin; visibility: hidden; z-index: 10; }
+.app_confirm_pnl_vis { visibility: inherit; bottom: 0px; }
+.app_confirm_pnl > img { width: 9vmin; margin: 1vmin; }
+.app_confirm_pnl .txt_btn { padding: 3vmin; justify-content: stretch; align-self: center; font-size: 5vmin; color: blue; flex-grow: 1; text-decoration: none; outline:none}
+.app_confirm_pnl .close_btn { text-decoration: none; color: black; padding: 3vmin 4vmin; text-align: center; font-size: 5vmin; font-family: arial; }
+.app_confirm_pnl .close_btn:active { background: rgb(189, 189, 189); }
